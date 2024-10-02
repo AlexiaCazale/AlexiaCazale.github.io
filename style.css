@@ -167,6 +167,11 @@ footer {
         display: flex;
     }
 
+    ul a {    
+        font-size: 13px;
+    }
+    
+
 }
 
 @media screen and (max-width: 600px) and (min-width: 401px){
@@ -225,6 +230,10 @@ footer {
 
     nav ul.show {
         display: flex;
+    }
+
+    ul a {    
+        font-size: 13px;
     }
 
 }
