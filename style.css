@@ -15,6 +15,7 @@ body {
 nav {
     background-color: #333;
     padding: 20px;
+    display: ruby-text;
 }
 
 ul {
@@ -47,6 +48,16 @@ h1 {
     text-align: center;
 }
 
+.title_logo{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 0;
+    font-style: normal;
+    text-transform: none;
+    text-align: left;
+}
+
 p {
     font-family: "Work Sans", sans-serif;
     text-align: center;
@@ -75,6 +86,10 @@ p {
     justify-content: center;
     text-decoration: none;
     padding: 15px;
+}
+
+.list-social a {
+    color: white;
 }
 
 .list-social i {
