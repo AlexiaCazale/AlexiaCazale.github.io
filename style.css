@@ -51,11 +51,9 @@ h1 {
 .title_logo{
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
-    font-size: 35px;
-    margin-top: 0;
+    font-size: 45px;
     font-style: normal;
     text-transform: none;
-    text-align: left;
 }
 
 p {
@@ -131,8 +129,8 @@ footer {
 
     .hamburger {
         padding: 25px;
-        display: flex;
-        flex-direction: column;
+        display: inline-table;
+        /* flex-direction: column; */
         place-items: self-end;
         cursor: pointer;
     }
@@ -144,8 +142,13 @@ footer {
         margin: 4px 0;
     }
 
+    .title_logo{
+        margin: 0;
+        font-size: 35px;
+    }
+
     nav {
-        padding: 0;
+        padding: 3px;
     }
 
     nav ul {
@@ -187,10 +190,14 @@ footer {
 
     .hamburger {
         padding: 25px;
-        display: flex;
-        flex-direction: column;
+        display: inline-table;
+        /* flex-direction: column; */
         place-items: self-end;
         cursor: pointer;
+    }
+
+    .title_logo{
+        font-size: 35px;
     }
 
     .hamburger div {
@@ -201,7 +208,7 @@ footer {
     }
 
     nav {
-        padding: 0;
+        padding: 3px;
     }
 
     nav ul {
@@ -238,6 +245,10 @@ footer {
 
     p {
         margin: 0 40px 0 40px;
+    }
+
+    .title_logo{
+        font-size: 35px;
     }
 
 }
